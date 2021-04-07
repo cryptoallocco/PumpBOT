@@ -1,0 +1,81 @@
+PumpBOT configuration file
+
+description:
+api_key is the api key value of Binance endpoint.
+api_secret is the api key secret value of Binance endpoint.
+You can request both api_key and api_secret from https://www.binance.com/en/my/settings/api-management
+
+pump_scan_percentage is the trigger percentage that will fire automatic mode buy order and sell limit order
+profit_percentage is the requested profit percentage, it is used to place the sell limit order
+
+currency represents the currency in which you want to visualize your BTC balance
+
+growing and fast_growing are percentages that are used by the bot to let you know which coins are growing during scan
+
+for more information, @photofioz Telegram.
+
+N.B.
+for USD currency, use USDT
+
+$$
+api_key -->XXXX
+api_secret -->XXXX
+pump_scan_percentage -->2
+profit_percentage -->10
+currency -->EUR
+growing -->0.5
+fast_growing -->1
+$$
+
+Symbols not to be considered during the scan. Do not add extra spaces, write symbols in uppercase!
+
+$$
+ETHBTC
+BNBBTC
+DOTBTC
+ADABTC
+XRPBTC
+UNIBTC
+LTCBTC
+LINKBTC
+THETABTC
+BCHBTC
+FILBTC
+XLMBTC
+DOGEBTC
+LUNABTC
+BTTBTC
+TRXBTC
+VETBTC
+EOSBTC
+AAVEBTC
+SOLBTC
+XMRBTC
+ATOMBTC
+XTZBTC
+KSMBTC
+AVAXBTC
+FTTBTC
+NEOBTC
+XEMBTC
+ALGOBTC
+EGLDBTC
+CHZBTC
+HBARBTC
+CAKEBTC
+DASHBTC
+COMPBTC
+MKRBTC
+SNXBTC
+TFUELBTC
+GRTBTC
+DCRBTC
+ZILBTC
+ENJBTC
+NEARBTC
+SUSHIBTC
+ZECBTC
+RUNEBTC
+MATICBTC
+BATBTC
+$$
